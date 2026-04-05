@@ -1,0 +1,20 @@
+{
+  "name": "riot-game-of-life",
+  "author": "ryan",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.4.0",
+    "prettier": "3.8.1"
+  }
+}
